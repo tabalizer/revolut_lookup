@@ -50,12 +50,13 @@ and display the result in your terminal.
 
 ```bash
 Enter Revolut username: johndoe
-API Response:
-{
-  "name": "John Doe",
-  "profile": "https://revolut.me/johndoe",
-  ...
-}
+API Respons:
+{"firstName":"John",
+"lastName":"Doe",
+"country":"US",
+"username":"johndoe",
+"baseCurrency":"US",
+"mobilePaymentTypes":["apple-pay"],"paymentMethods":["revolut","card"]}
 ```
 
 ## 🗂️ Project Structure
