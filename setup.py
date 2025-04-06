@@ -12,7 +12,7 @@ setup(
             'revolut-lookup = revolut_lookup.main:get_user_profile'
         ]
     },
-    author="Your Name",
+    author="tabali3r",
     description="A simple CLI tool to fetch Revolut web profiles using the public API.",
     python_requires='>=3.6',
 )
